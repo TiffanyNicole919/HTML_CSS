@@ -1,0 +1,32 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.col {
+	background-color:lightpink;
+	float: left;
+	width: 25%;
+	margin: auto;
+}
+
+
+.row::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.col-2 {
+	background-color: deepskyblue;
+	float: left;
+	width: 25%;
+}
+
+
+.col-3 {
+	background: lightblue;
+	float: left;
+	width: 30%;
+}	
+
