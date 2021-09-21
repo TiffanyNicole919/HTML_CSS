@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.row {
+	display: flex;
+}
+
+.col, .col-2, .col-3 {
+	margin: 20px;
+	padding: 20px;	
+}
+
+
+
+
+.col {
+	flex: 1;
+	background-color:lightpink;
+	
+}
+	
+
+.col-2 {
+	flex: 2;
+	background-color: deepskyblue;
+}
+
+
+.col-3 {
+	background: lightblue;
+	flex: 3;
+	
+}	
+
