@@ -1,0 +1,70 @@
+* {
+	box-sizing: border-box;
+}
+
+
+body {
+	background-color: whitesmoke;
+	font-family: Roboto, sans-serif;
+}
+
+.flex-container {
+	width: 800px;
+	display: flex;
+	margin: 0 auto;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+
+.user-card {
+	width: 100%;
+	margin: 1px;
+	padding: 1px;
+	border: 1px solid gray;
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+
+.card-header {
+	background-color:darkcyan;
+	margin-bottom: 70px;
+	padding: 20px;
+	height: 110px;
+	
+}
+
+.title {
+	padding: 20px;
+}
+
+
+
+
+.title h1, .title h2, .title h3, .title p {
+	margin: 20px, 0px;
+
+}
+
+.image {
+	height: 120px;
+	font-size: 20px;
+	border-radius: 50%;
+	background-color: white;
+	padding: 5px;
+	margin-top: 20px;
+	margin-left: 20px ;
+
+}
+
+.image2 {
+	height: 20px;
+}
+
+a {
+	color: blue;
+}
+.image3 {
+	height: 20px;
+}
